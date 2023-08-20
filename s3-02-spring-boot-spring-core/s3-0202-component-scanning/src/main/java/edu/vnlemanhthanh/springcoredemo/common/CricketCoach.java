@@ -1,4 +1,4 @@
-package edu.vnlemanhthanh.springcoredemo;
+package edu.vnlemanhthanh.springcoredemo.common;
 
 import org.springframework.stereotype.Component;
 

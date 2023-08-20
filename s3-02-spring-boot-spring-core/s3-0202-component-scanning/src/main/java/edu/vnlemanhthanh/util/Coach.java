@@ -1,4 +1,4 @@
-package edu.vnlemanhthanh.springcoredemo;
+package edu.vnlemanhthanh.util;
 
 public interface Coach  {
 
