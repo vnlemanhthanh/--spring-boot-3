@@ -8,11 +8,15 @@ public interface StudentDAO  {
 
 	void save(Student theStudent);
 
-	Student findById(Integer id);
+	Student findById(Integer studentId);
 
 	List<Student> findAll();
 
 	List<Student> findByLastName(String theLastName);
 
 	void update(Student theStudent);
+
+	void delete(Integer studentId);
+
+	int deleteAll();
 }
