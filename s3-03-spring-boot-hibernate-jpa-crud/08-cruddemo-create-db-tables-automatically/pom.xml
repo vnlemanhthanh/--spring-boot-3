@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>edu.vnlemanhthanh.springboot</groupId>
-	<artifactId>springdatajpa</artifactId>
+	<artifactId>hibernatejpa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>s3-0308-springdata-jpa</name>
+	<name>s3-0308-hibernate-jpa</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
