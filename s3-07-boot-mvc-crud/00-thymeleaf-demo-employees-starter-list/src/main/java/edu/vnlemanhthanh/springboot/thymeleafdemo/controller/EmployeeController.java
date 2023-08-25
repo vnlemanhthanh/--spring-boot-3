@@ -16,8 +16,6 @@ public class EmployeeController {
 
 	// load employee data
 
-	private List<Employee> theEmployees;
-
 	@PostConstruct
 	private void loadData() {
 
