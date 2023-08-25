@@ -1,6 +1,7 @@
 package edu.vnlemanhthanh.springboot.thymeleafdemo.controller;
 
 import edu.vnlemanhthanh.springboot.thymeleafdemo.entity.Employee;
+import edu.vnlemanhthanh.springboot.thymeleafdemo.service.EmployeeService;
 import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -13,6 +14,12 @@ import java.util.List;
 @Controller
 @RequestMapping("/employees")
 public class EmployeeController {
+
+	private EmployeeService employeeService;
+
+	public EmployeeController(EmployeeService theEmployeeService) {
+		this.employeeService = theEmployeeService;
+	}
 
 	// add mapping for "/list"
 
