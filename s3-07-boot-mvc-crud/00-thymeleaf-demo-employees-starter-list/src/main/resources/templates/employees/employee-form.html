@@ -11,12 +11,13 @@
   <title>Save Employee</title>
 </head>
 <body>
+
   <div class="container">
     <h3>Employee Directory</h3>
     <hr>
     <p class="h4 mb-4">Save Employee</p>
 
-    <form action="#" th:action="@{/employees/save"
+    <form action="#" th:action="@{/employees/save}"
           th:object="${employee}" method="post">
 
       <input type="text" th:field="*{firstName}"
@@ -31,9 +32,10 @@
       <button type="submit" class="btn btn-info col-2">Save</button>
 
     </form>
+    <hr>
+    <a th:href="@{/employees/list}">Back to Employees List</a>
 
   </div>
-
 
 </body>
 </html>
