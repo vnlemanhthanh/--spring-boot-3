@@ -1,12 +1,12 @@
 package edu.vnlemanhthanh.springboot.thymeleafdemo.service;
 
-import java.util.List;
-import java.util.Optional;
-
 import edu.vnlemanhthanh.springboot.thymeleafdemo.dao.EmployeeRepository;
 import edu.vnlemanhthanh.springboot.thymeleafdemo.entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
+import java.util.Optional;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
@@ -20,7 +20,8 @@ public class EmployeeServiceImpl implements EmployeeService {
 	
 	@Override
 	public List<Employee> findAll() {
-		return employeeRepository.findAll();
+		//return employeeRepository.findAll();
+		return employeeRepository.findAllByOrderByLastNameAsc();
 	}
 
 	@Override
