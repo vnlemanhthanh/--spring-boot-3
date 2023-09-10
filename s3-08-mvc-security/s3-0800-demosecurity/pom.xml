@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.vnlemanhthanh.springboot</groupId>
-	<artifactId>demosecurity</artifactId>
+	<artifactId>s3-0800-demosecurity</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>s3-0800-demosecurity</name>
 	<description>Demo project for Spring Boot</description>
